@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Check if a user is logged in, navigate to the appropriate page
+   
     String? loggedInUser = box.get('loggedInUser');
     Widget initialPage = loggedInUser != null ? Homepage() : AuthenticationPage();
 
