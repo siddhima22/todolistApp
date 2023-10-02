@@ -13,7 +13,7 @@ class AuthenticationPage extends StatelessWidget {
     String username = _username.text;
     String password = _password.text;
 
-    // Simulated authentication (you can replace this with a real authentication logic)
+
     List<User> users = [
       User('user1', 'password1'),
       User('user2', 'password2'),
